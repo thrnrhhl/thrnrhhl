@@ -1,7 +1,9 @@
 import { projects } from '@/shared/config/constants';
 import { assets } from '@/shared/config/images'
 import { Resume } from '@/widgets/resume';
-import Image from 'next/image'
+import { Github, Link } from 'lucide-react';
+import Image from 'next/image';
+import NextLink from 'next/link';
 
 export default function Home() {
 
@@ -19,7 +21,7 @@ export default function Home() {
       <Resume />
 
       {projects.map((key, index) => (
-        <section aria-label={key.name} className="min-h-screen p-[16px] lg:p-[50px] gap-[40px] flex flex-col justify-center lg:grid lg:grid-cols-12 lg:items-center border-b">
+        <section aria-label={key.name} className="min-h-screen p-[16px] lg:p-[50px] gap-[0px] flex flex-col justify-center lg:grid lg:grid-cols-12 lg:items-center border-b">
           <Image
             src={key.image}
             width="940"
@@ -27,9 +29,21 @@ export default function Home() {
             alt="karnast"
             className="lg:col-span-7 w-full lg:w-auto"
           />
-          <div className="lg:col-span-5 mt-[40px] lg:mt-0">
-            <h2 className="text-[40px] font-bold mb-[30px] text-[#242424]">{key.name}</h2>
+          <div className="lg:col-span-5 mt-0">
+            <h2 className="text-[40px] font-bold text-[#242424]">{key.name}</h2>
             <p className="text-md text-[#242424] whitespace-pre-line">{key.description}</p>
+            <div className="mt-[20px] flex items-center justify-center gap-[10px]">
+              {key.link && (
+                <NextLink href={key.link}>
+                  <Link />
+                </NextLink>
+              )}
+              {key.github && (
+                <NextLink href={key.github}>
+                  <Github />
+                </NextLink>
+              )}
+            </div>
           </div>
         </section>
       ))}
