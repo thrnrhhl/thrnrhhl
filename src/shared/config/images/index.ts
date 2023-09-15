@@ -8,4 +8,5 @@ export const assets = {
     karnast: cdn('karnast.png'),
     generepass: cdn('generepass.png'),
     gym_center: cdn('gym_center.png'),
+    kalkkal: cdn('kalkkal.png'),
 }
