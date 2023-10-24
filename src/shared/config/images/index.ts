@@ -9,4 +9,5 @@ export const assets = {
     generepass: cdn('generepass.png'),
     gym_center: cdn('gym_center.png'),
     kalkkal: cdn('kalkkal.png'),
+    getseek: cdn('getseek.png'),
 }
