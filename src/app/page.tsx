@@ -6,7 +6,8 @@ export default function Page() {
         <main className="container m-auto h-full bg-[#fff] dark:bg-[#000] min-h-screen flex flex-col lg:flex-row py-[20px] lg:py-[40px] px-[16px] lg:px-[0px] gap-[50px]">
             <aside className="sticky top-[16px] lg:top-[50%] lg:translate-y-[-50%] flex-shrink-0 h-fit flex justify-center lg:flex-col gap-[20px] ">
                 <div className="flex justify-center mb-[20px]">
-                    <Image src="/logo_white.svg" alt="me" width="118" height="96" className="w-[80px] h-[68px] lg:w-[118px] lg:h-[96px]" />
+                    <Image src="/logo_black.svg" alt="me" width="118" height="96" className="dark:hidden w-[80px] h-[68px] lg:w-[118px] lg:h-[96px]" />
+                    <Image src="/logo_white.svg" alt="me" width="118" height="96" className="hidden dark:block w-[80px] h-[68px] lg:w-[118px] lg:h-[96px]" />
                 </div>
                 <Image src="/me.png" alt="me" width="208" height="404" className="h-[80px] object-contain lg:h-auto" />
                 <div className="flex justify-center lg:mt-[20px] flex-shrink-0">
@@ -90,6 +91,9 @@ export default function Page() {
                     </a>
                     <a href="https://tenchat.ru/thrnrhhl" target="_blank" className="block border-l border-l-[4px] border-l-[#fc3234] pl-[10px] text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm mt-[10px]">
                         TenChat
+                    </a>
+                    <a href="https://github.com/thrnrhhl" target="_blank" className="block border-l border-l-[4px] border-l-[#242424] pl-[10px] text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm mt-[10px]">
+                        GitHub
                     </a>
                     <p className="block border-l border-l-[4px] border-l-[orange] pl-[10px] text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm mt-[10px]">
                         thrnrhhl@yandex.ru
