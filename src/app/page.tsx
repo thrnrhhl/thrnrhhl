@@ -16,7 +16,7 @@ export default function Page() {
             </aside>
 
             <div>
-                <h1 className="font-['Unbounded'] text-[#000] dark:text-[#fff] text-5xl font-black uppercase text-right">
+                <h1 className="font-['Unbounded'] text-[#000] dark:text-[#fff] text-4xl lg:text-5xl font-black uppercase text-right">
                     Меня зовут Павел <br /> я фронтенд-разработчик
                 </h1>
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Опыт работы">
