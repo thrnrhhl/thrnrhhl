@@ -33,7 +33,6 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta name="og:title" property="og:title" content="thrnrhhl" />
         <meta name="og:description" property="og:description" content="Портфолио Яковлева Павла фронтенд-разработчика middle-уровня" />
-        <meta name="og:image" property="og:image" content="/og_image.png" />
         <meta name="og:url" property="og:url" content="https://thrnrhhl.vercel.app" />
         <link rel="icon" type="image/x-icon" href={favicon.src} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
