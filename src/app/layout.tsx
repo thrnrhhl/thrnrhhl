@@ -1,12 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next';
 import favicon from './favicon.ico';
+import ogImage from '../../public/og_image.jpg';
 import Script from 'next/script';
 import { Unbounded, Ubuntu } from 'next/font/google'
 
 
 export const metadata: Metadata = {
-  title: 'thrnrhhl',
+  title: 'thrnrhhl ■ React Frontend-developer',
   description: 'Портфолио Яковлева Павла фронтенд-разработчика middle-уровня',
   keywords: 'фронтенд, разработчик, портфолио, Middle, лидер команды, веб-приложения, middle frontend, мидл фронтенд'
 }
@@ -19,7 +20,7 @@ const unbounded = Unbounded({
 const ubuntuFont = Ubuntu({
   weight: ['300', '400', '500', '700'],
   subsets: ['cyrillic', 'latin']
-})
+});
 
 export default function RootLayout({
   children,
@@ -32,6 +33,7 @@ export default function RootLayout({
       <head>
         <meta name="robots" content="index, follow" />
         <meta name="og:title" property="og:title" content="thrnrhhl" />
+        <meta name="og:image" property="og:image" content={ogImage.src} />
         <meta name="og:description" property="og:description" content="Портфолио Яковлева Павла фронтенд-разработчика middle-уровня" />
         <meta name="og:url" property="og:url" content="https://thrnrhhl.vercel.app" />
         <link rel="icon" type="image/x-icon" href={favicon.src} />
@@ -41,7 +43,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
-
         {/* Yandex.Metrika counter */}
         <Script
           id="yandex-metrika"
