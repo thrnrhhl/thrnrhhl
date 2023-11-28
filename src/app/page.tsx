@@ -16,12 +16,12 @@ export default function Page() {
             </aside>
 
             <div>
-                <h1 className="text-[#000] dark:text-[#fff] text-5xl font-black uppercase text-right">
+                <h1 className="font-['Unbounded'] text-[#000] dark:text-[#fff] text-5xl font-black uppercase text-right">
                     Меня зовут Павел <br /> я фронтенд-разработчик
                 </h1>
 
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Опыт работы">
-                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase">Опыт работы _ 3 года 2 месяца</h2>
+                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Опыт работы<br />3 года 2 месяца</h2>
 
                     {experience.map(key => (
                         <div className="border-l border-l-[4px] border-l-[#000] dark:border-l-[#fff] pl-[10px] mt-[15px] lg:mt-[20px]">
@@ -35,14 +35,14 @@ export default function Page() {
                 </div>
 
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Навыки и технологии">
-                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase">Навыки и технологии</h2>
+                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Навыки и технологии</h2>
                     <div className="flex flex-wrap gap-[10px] mt-[20px]">
                         {skills.map(key => <img key={key} src={key} alt="next.js" />)}
                     </div>
                 </div>
 
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Образование">
-                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase">Образование</h2>
+                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Образование</h2>
                     <div className="border-l border-l-[4px] border-l-[#000] dark:border-l-[#fff] pl-[10px] mt-[20px]">
                         <p className="text-[#000] dark:text-[#fff] uppercase text-xs lg:text-sm font-bold">Среднее специальное образование</p>
                         <p className="text-[#000] dark:text-[#fff] uppercase text-xs lg:text-sm font-bold">Чебоксары</p>
@@ -53,7 +53,7 @@ export default function Page() {
                 </div>
 
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Обо мне">
-                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase">Обо мне</h2>
+                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Обо мне</h2>
                     <p className="border-l border-l-[4px] border-l-[#000] dark:border-l-[#fff] pl-[10px] text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm mt-[20px]">
                         Я фронтенд-разработчик с коммерческим опытом 3 года.
                         <br /><br />
@@ -70,7 +70,7 @@ export default function Page() {
                 </div>
 
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Проекты">
-                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase">Проекты</h2>
+                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Проекты</h2>
                     <div className="flex flex-col gap-[20px]">
                         {projects.map((key) => (
                             <div className="flex flex-col lg:flex-row items-center">
@@ -84,8 +84,8 @@ export default function Page() {
                     </div>
                 </div>
 
-                <div className="mt-[30px] lg:mt-[50px]" aria-label="Контактная информация">
-                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase">Контактная информация</h2>
+                <div className="mt-[30px] lg:mt-[50px]" aria-label="Контакты">
+                    <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Контакты</h2>
                     <a href="https://t.me/thrnrhhl" target="_blank" className="block border-l border-l-[4px] border-l-[#2ea6d9] dark:border-l-[#2ea6d9] pl-[10px] text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm mt-[20px]">
                         Telegram
                     </a>
