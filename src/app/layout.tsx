@@ -67,7 +67,7 @@ export default function RootLayout({
         <noscript><div><img src="https://mc.yandex.ru/watch/94955185" style={{ position: 'absolute', left: -9999 }} alt="" /></div></noscript>
         {/* /Yandex.Metrika counter */}
       </head>
-      <body className={[unbounded.className, ubuntuFont.className, 'bg-[#f5f5f5]'].join(' ')}>
+      <body className={[unbounded.className, ubuntuFont.className, 'h-full'].join(' ')}>
         {children}
       </body>
     </html>
