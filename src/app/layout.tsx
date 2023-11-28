@@ -7,8 +7,8 @@ import { Unbounded, Ubuntu } from 'next/font/google'
 
 
 export const metadata: Metadata = {
-  title: 'thrnrhhl ■ React Frontend-developer',
-  description: 'Портфолио Яковлева Павла фронтенд-разработчика middle-уровня',
+  title: 'thrnrhhl',
+  description: 'Меня зовут Павел, я фронтенд-разработчик',
   keywords: 'фронтенд, разработчик, портфолио, Middle, лидер команды, веб-приложения, middle frontend, мидл фронтенд'
 }
 
