@@ -19,7 +19,6 @@ export default function Page() {
                 <h1 className="font-['Unbounded'] text-[#000] dark:text-[#fff] text-5xl font-black uppercase text-right">
                     Меня зовут Павел <br /> я фронтенд-разработчик
                 </h1>
-
                 <div className="mt-[30px] lg:mt-[50px]" aria-label="Опыт работы">
                     <h2 className="text-[#000] dark:text-[#fff] text-2xl lg:text-3xl font-black uppercase font-['Unbounded']">Опыт работы<br />3 года 2 месяца</h2>
 
