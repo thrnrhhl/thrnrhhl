@@ -29,7 +29,7 @@ export default function Page() {
                             <p className="text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm">{key.city}</p>
                             <p className="text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm">{key.position}</p>
                             <p className="text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm">{key.date}</p>
-                            <p className="text-[#000] dark:text-[#fff] uppercase mt-[15px] font-bold text-xs lg:text-sm">{key.description}</p>
+                            <p className="text-[#000] dark:text-[#fff] uppercase mt-[15px] font-bold text-xs lg:text-sm whitespace-break-spaces">{key.description}</p>
                         </div>
                     ))}
                 </div>
