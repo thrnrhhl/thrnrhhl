@@ -56,7 +56,7 @@ export default function RootLayout({
         <noscript><div><img src="https://mc.yandex.ru/watch/94955185" style={{ position: 'absolute', left: -9999 }} alt="" /></div></noscript>
         {/* /Yandex.Metrika counter */}
       </head>
-      <body className="backdrop-blur-[100px] bg-[#fff] h-full">
+      <body className="h-full">
         {children}
       </body>
     </html>
