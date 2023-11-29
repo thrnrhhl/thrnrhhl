@@ -1,0 +1,21 @@
+.contact_link {
+    @apply block border-l border-l-[4px] pl-[10px] text-[#000] dark:text-[#fff] uppercase font-bold text-xs lg:text-sm;
+
+    &__type {
+        &__1 {
+            @apply border-l-[#2ea6d9];
+        }
+
+        &__2 {
+            @apply border-l-[#fc3234];
+        }
+
+        &__3 {
+            @apply border-l-[#242424];
+        }
+
+        &__4 {
+            @apply border-l-[orange];
+        }
+    }
+}

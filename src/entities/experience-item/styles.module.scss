@@ -1,0 +1,7 @@
+.experience_item {
+    @apply mt-[15px] lg:mt-[20px];
+
+    &__description {
+        @apply whitespace-break-spaces mt-[15px];
+    }
+}

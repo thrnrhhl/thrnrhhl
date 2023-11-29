@@ -18,10 +18,12 @@ export const skills = [
     'https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white',
     'https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white',
     'https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB',
+    'https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white',
     'https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens',
     'https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white',
     'https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white',
     'https://img.shields.io/badge/Express-%23000000.svg?&style=for-the-badge&logo=express&logoColor=white',
     'https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white',
     'https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white',
+    'https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white'
 ];

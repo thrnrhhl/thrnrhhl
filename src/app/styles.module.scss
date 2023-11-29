@@ -1,0 +1,27 @@
+.main {
+    @apply container m-auto h-full bg-[#fff] dark:bg-[#000] min-h-screen flex flex-col lg:flex-row py-[20px] lg:py-[40px] px-[16px] lg:px-[0px] gap-[50px];
+
+    &__wrapper {
+        @apply mt-[30px] lg:mt-[50px];
+
+        &_skills {
+            @apply flex flex-wrap gap-[10px] mt-[20px];
+        }
+
+        &_education {
+            @apply mt-[20px];
+        }
+
+        &_me {
+            @apply mt-[20px];
+        }
+
+        &_project {
+            @apply flex flex-col gap-[20px];
+        }
+
+        &_contact {
+            @apply flex flex-col gap-[10px] mt-[20px];
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.project_item {
+    @apply flex flex-col lg:flex-row items-center;
+
+    &__img {
+        @apply max-w-[625px] w-full;
+    }
+
+    &__text__mb_10 {
+        @apply mb-[10px];
+    }
+}

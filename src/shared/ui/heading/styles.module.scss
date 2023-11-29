@@ -1,0 +1,11 @@
+.heading {
+    @apply text-[#000] dark:text-[#fff] font-['Unbounded'] font-black uppercase;
+
+    &__h1 {
+        @apply text-4xl lg:text-5xl ;
+    }
+
+    &__h2 {
+        @apply text-2xl lg:text-3xl;
+    }
+}
